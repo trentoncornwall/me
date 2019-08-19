@@ -89,15 +89,23 @@ body {
 !PROJECTS LAYOUT
 */
 .projects {
-    height: 200vh;
+
     background-color: #0099ff;
     color: rgb(17, 17, 17);
     display: grid;
-    grid-template-rows: 2fr auto;
+    grid-template-rows: 400px auto;
     grid-template-columns: 2fr 4fr 2fr;
     grid-template-areas:
         "wave2 wave2 wave2"
-        ". pinfo ."
+        ". pinfo .";
+    background: #0099ff;
+    background: -moz-linear-gradient(top, #0099ff 0%, #0099ff 38%, #00becc 74%, #00becc 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #0099ff), color-stop(38%, #0099ff), color-stop(74%, #00becc), color-stop(100%, #00becc));
+    background: -webkit-linear-gradient(top, #0099ff 0%, #0099ff 38%, #00becc 74%, #00becc 100%);
+    background: -o-linear-gradient(top, #0099ff 0%, #0099ff 38%, #00becc 74%, #00becc 100%);
+    background: -ms-linear-gradient(top, #0099ff 0%, #0099ff 38%, #00becc 74%, #00becc 100%);
+    background: linear-gradient(to bottom, #0099ff 0%, #0099ff 38%, #00becc 74%, #00becc 100%);
+
 }
 
 .wave2 {
@@ -248,6 +256,7 @@ br {
 }
 
 .project_header h2 {
+
     color: white;
     font-size: 34px;
     letter-spacing: 2.5px;
@@ -300,7 +309,9 @@ br {
 
 
 .project_info {
-    border-left: 3px solid #39d4ad;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    border-left: 3px solid #6900f3;
 }
 
 .project_info h3 {
@@ -328,7 +339,7 @@ br {
     width: 100px;
     justify-content: center;
     align-items: center;
-    background-color: #00f3b6;
+    background-color: #6900f3;
     border-radius: 5px;
     -webkit-box-shadow: 0px 4px 5px -3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 4px 5px -3px rgba(0, 0, 0, 0.75);
@@ -341,7 +352,7 @@ br {
     width: 100px;
     justify-content: center;
     align-items: center;
-    background-color: #00f3b6;
+    background-color: #6900f3;
     border-radius: 5px;
     -webkit-box-shadow: 0px 4px 5px -3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 4px 5px -3px rgba(0, 0, 0, 0.75);
@@ -358,9 +369,7 @@ br {
 
 }
 
-.darkhorse {
-    margin-bottom: 100px;
-}
+
 
 #onlinerps {
     background: url(../images/onlinerps.png);
@@ -371,9 +380,6 @@ br {
 
 }
 
-.onlinerps {
-    margin-bottom: 100px;
-}
 
 #trivia {
     background: url(../images/trivia.png);
@@ -383,9 +389,9 @@ br {
     background-color: #e0e0e0;
 }
 
-.trivia {
-    margin-bottom: 100px;
-}
+
+
+
 
 @media only screen and (max-width: 1450px) {
     .about_me {
