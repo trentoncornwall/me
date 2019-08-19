@@ -40,7 +40,7 @@ body {
 
 .wave1 {
     grid-area: wave1;
-    background-image: url(/assets/images/wave1.svg);
+    background-image: url(../images/wave1.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -227,7 +227,7 @@ br {
     position: absolute;
     height: 200px;
     width: 200px;
-    background-image: url(https://trentoncornwall.github.io/me/assets/images/blob-shape.svg);
+    background-image: url(../images/blob-shape.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
