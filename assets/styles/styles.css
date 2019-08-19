@@ -1,23 +1,24 @@
-@import url('https://fonts.googleapis.com/css?family=Red+Hat+Display:400,900&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap');
 
-.body {
-    font-family: 'Red Hat Display', sans-serif;
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* 
-LAYOUT 
+!LANDING LAYOUT
 */
 
 .intro {
-    height: 99vh;
-    background-color: rgb(17, 17, 17);
+    height: 100vh;
+    background: linear-gradient(180deg, rgb(114, 114, 114) 0%, rgba(17, 17, 17, 1) 55%);
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     grid-template-areas:
         "."
         "photo"
         "social"
-        ".";
+        "wave1";
 }
 
 .photo {
@@ -37,6 +38,15 @@ LAYOUT
         "logos"
 }
 
+.wave1 {
+    grid-area: wave1;
+    background-image: url(/assets/images/wave1.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e0e0e0;
+}
+
 .name {
     grid-area: name;
     display: flex;
@@ -52,12 +62,38 @@ LAYOUT
 }
 
 
+/* 
+!ABOUT ME LAYOUT
+*/
+
+.about_me {
+
+    background-color: #e0e0e0;
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas:
+        ". info ."
+}
+
+.info {
+    grid-area: info;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+
+
+/* 
+!PROJECTS LAYOUT
+*/
 .projects {
-    height: 98vh;
-    background-color: azure;
+    height: 100vh;
+    background-color: #e0e0e0;
     color: rgb(17, 17, 17);
     display: grid;
-    grid-template-rows: 200px 350px;
+    grid-template-rows: 300px 350px;
     grid-template-columns: 1fr 3fr 1fr;
     grid-template-areas:
         ". project_header ."
@@ -145,8 +181,68 @@ STYLING
     margin: 10px;
 }
 
+.intro {
+    position: relative;
+}
+
 /* 
-2nd section
+ABOUT section
+*/
+
+.about_header {
+    font-size: 46px;
+    color: #ffffff;
+    text-shadow: 1px 1px 1px #000,
+        3px 3px 5px rgb(0, 0, 0);
+}
+
+.about_me h3 {
+    clear: both;
+    margin-top: 30px;
+    font-size: 18px;
+    line-height: 24px;
+    padding: 20px;
+}
+
+
+.icon {
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.blob {
+    display: flex;
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-image: url(/assets/images/blob-shape.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #e0e0e0;
+}
+
+.icon img {
+    position: relative;
+    height: 100%;
+    width: 90px;
+}
+
+.team {
+    margin-top: 50px;
+}
+
+.looking {
+    margin-top: 50px;
+}
+
+/* 
+PROEJCTS section
 */
 
 .project_header p {
