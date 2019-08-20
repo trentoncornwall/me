@@ -16,6 +16,9 @@ nav {
     width: 100%;
     height: 50px;
     z-index: 1;
+    -webkit-box-shadow: -1px 8px 4px -3px rgba(0, 0, 0, 0.25);
+    -moz-box-shadow: -1px 8px 4px -3px rgba(0, 0, 0, 0.25);
+    box-shadow: -1px 8px 4px -3px rgba(0, 0, 0, 0.25);
 
 }
 
@@ -41,6 +44,7 @@ nav {
     text-transform: uppercase;
     text-shadow: 2px 2px 3px rgba(134, 134, 134, 0.3);
 }
+
 
 /* 
 !LANDING LAYOUT
@@ -127,7 +131,7 @@ nav {
 */
 .projects {
 
-    background-color: #0099ff;
+    background-color: #EB124C;
     color: rgb(17, 17, 17);
     display: grid;
     grid-template-rows: 400px auto;
@@ -136,12 +140,12 @@ nav {
         "wave2 wave2 wave2"
         ". pinfo .";
     background: #0099ff;
-    background: -moz-linear-gradient(top, #0099ff 0%, #0099ff 38%, #00becc 74%, #00becc 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, #0099ff), color-stop(38%, #0099ff), color-stop(74%, #00becc), color-stop(100%, #00becc));
-    background: -webkit-linear-gradient(top, #0099ff 0%, #0099ff 38%, #00becc 74%, #00becc 100%);
-    background: -o-linear-gradient(top, #0099ff 0%, #0099ff 38%, #00becc 74%, #00becc 100%);
-    background: -ms-linear-gradient(top, #0099ff 0%, #0099ff 38%, #00becc 74%, #00becc 100%);
-    background: linear-gradient(to bottom, #0099ff 0%, #0099ff 38%, #00becc 74%, #00becc 100%);
+    background: -moz-linear-gradient(top, #EB124C 0%, #EB124C 38%, #e4aa2e 74%, #e4aa2e 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, #EB124C), color-stop(38%, #EB124C), color-stop(74%, #e4aa2e), color-stop(100%, #e4aa2e));
+    background: -webkit-linear-gradient(top, #EB124C 0%, #EB124C 38%, #e4aa2e 74%, #e4aa2e 100%);
+    background: -o-linear-gradient(top, #EB124C 0%, #EB124C 38%, #e4aa2e 74%, #e4aa2e 100%);
+    background: -ms-linear-gradient(top, #EB124C 0%, #EB124C 38%, #e4aa2e 74%, #e4aa2e 100%);
+    background: linear-gradient(to bottom, #EB124C 0%, #EB124C 38%, #e4aa2e 74%, #e4aa2e 100%);
 
 }
 
@@ -348,7 +352,7 @@ br {
 .project_info {
     margin-top: 30px;
     margin-bottom: 150px;
-    border-left: 3px solid #1e0044;
+    border-left: 3px solid #37e454;
 }
 
 .project_info h3 {
@@ -376,7 +380,7 @@ br {
     width: 100px;
     justify-content: center;
     align-items: center;
-    background-color: #1e0044;
+    background-color: #37e454;
     border-radius: 15px;
     -webkit-box-shadow: 0px 4px 5px -3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 4px 5px -3px rgba(0, 0, 0, 0.75);
@@ -385,7 +389,7 @@ br {
 }
 
 .repo:hover {
-    background-color: #3f1774;
+    background-color: #6eec83;
     font-size: 22px
 }
 
@@ -395,7 +399,7 @@ br {
     width: 100px;
     justify-content: center;
     align-items: center;
-    background-color: #1e0044;
+    background-color: #37e454;
     border-radius: 15px;
     -webkit-box-shadow: 0px 4px 5px -3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 4px 5px -3px rgba(0, 0, 0, 0.75);
@@ -404,7 +408,7 @@ br {
 }
 
 .page:hover {
-    background-color: #3f1774;
+    background-color: #6eec83;
     font-size: 22px
 }
 
