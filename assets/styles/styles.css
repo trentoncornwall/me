@@ -51,10 +51,10 @@ nav {
 */
 
 .intro {
-    height: 100vh;
+    height: 120vh;
     background: linear-gradient(180deg, #424242 0%, rgba(17, 17, 17, 1) 55%);
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr 300px;
+    grid-template-rows: 1fr 2fr 2fr 300px;
     grid-template-areas:
         "."
         "photo"
@@ -352,7 +352,7 @@ br {
 .project_info {
     margin-top: 30px;
     margin-bottom: 150px;
-    border-left: 3px solid #37e454;
+    border-left: 3px solid #ffe603;
 }
 
 .project_info h3 {
@@ -380,7 +380,7 @@ br {
     width: 100px;
     justify-content: center;
     align-items: center;
-    background-color: #37e454;
+    background-color: #ffe603;
     border-radius: 15px;
     -webkit-box-shadow: 0px 4px 5px -3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 4px 5px -3px rgba(0, 0, 0, 0.75);
@@ -389,7 +389,7 @@ br {
 }
 
 .repo:hover {
-    background-color: #6eec83;
+    background-color: #fc3b65;
     font-size: 22px
 }
 
@@ -399,7 +399,7 @@ br {
     width: 100px;
     justify-content: center;
     align-items: center;
-    background-color: #37e454;
+    background-color: #ffe603;
     border-radius: 15px;
     -webkit-box-shadow: 0px 4px 5px -3px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 0px 4px 5px -3px rgba(0, 0, 0, 0.75);
@@ -408,7 +408,7 @@ br {
 }
 
 .page:hover {
-    background-color: #6eec83;
+    background-color: #fc3b65;
     font-size: 22px
 }
 
